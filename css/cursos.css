@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 1000px;
+    border-top: 2px solid black;
+}
+
+p {
+    text-align: justify;
+}
+
+.main-container h1 {
+    height: 100px;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(49, 48, 48); 
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.curso {
+    display: flow-root;
+    height: 40% ;
+    margin: 50px 80px;
+}
+
+.foto1 {
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-image: url(../img/Cursos/Curso-2.webp);
+    background-position: center;
+    background-position: 50% 100%;
+    background-size: cover;
+}
+
+.foto2 {
+    float: right;
+    height: 100%;
+    width: 40%;
+    background-image: url(../img/Cursos/Curso-1.webp);
+    background-position: center;
+    background-position: 50% 100%;
+    background-size: cover;
+}
+
+.curso-item1 {
+    float: right;
+    height: 100%;
+    width: 55%;
+}
+
+.curso-item1 h2 {
+    font-size: 2.5rem;
+}
+
+.curso-item1 h4 {
+    font-size: 1.5rem;
+    color: rgba(49, 48, 48, 0.8 );
+}
+
+.curso-item1 p {
+    margin-top: 2% ;
+}
+
+button {
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    float: right;
+    background-color: rgb(153, 153, 128);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: lightgray;
+    color:rgb(49, 48, 48)
+}
+
+.curso-item2 {
+    float: left;
+    height: 100%;
+    width: 55%;
+}
+
+.curso-item2 h2 {
+    font-size: 2.5rem;
+}
+
+.curso-item2 h4 {
+    font-size: 1.5rem;
+    color: rgba(49, 48, 48, 0.8 );
+}
+
+.curso-item2 p {
+    margin-top: 2% ;
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 700px;
+    border-top: 2px solid black;
+}
+
+.main-container h1 {
+    height: 13%;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(49, 48, 48); 
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    display: flow-root;
+    height: 80%;
+    width: 100%;
+}
+
+.contacto {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 3%;
+}
+
+.contacto h2 {
+    font-size: 2rem;
+    color: rgb(49, 48, 48);
+}
+
+.contacto h4 {
+    color: rgba(49, 48, 48, 0.8);
+    font-style: italic;
+    margin: 10px 0px;
+}
+
+.contacto h3 {
+    color: rgb(49, 48, 48); 
+    margin-top: 15px;
+}
+
+.redes {
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.redes img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+
+.redes .logo {
+    height: 200px;
+    width: 200px;
+    left: 35%
+}
+
+.twitter {
+    left: 20%;
+    top: -28%
+}
+
+.instagram {
+    left: 18%;
+}
+
+.telegram {
+    left: -23%;
+    top: 60%
+}
+
+.facebook {
+    left: 10%;
+    top: 60%
+}
+
+.formulario {
+    float: right;
+    width: 50%;
+    height: 100%;  
+    padding: 3%; 
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    margin: 15px 0px;
+}
+
+select {
+    width: 90%;
+    height: 50px;
+    margin: 15px 0px;
+}
+
+.tema {
+    padding-left: 5px;
+    color:rgba(49, 48, 48, 0.7);
+    font-size: 1.2rem;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin: 15px 0px;
+    padding-left: 5px;
+    color:rgba(49, 48, 48, 0.7);
+    font-size: 1.2rem;
+}
+
+.condiciones {
+    width: 5%;
+    height: 15px;
+}
+
+::placeholder {
+    padding-left: 5px;
+    color:rgba(49, 48, 48, 0.7);
+    font-size: 1.2rem;
+}
+
+.condiciones a {
+    text-decoration: underline;
+}
+
+.condicion {
+    font-size: 1.2rem;
+}
+
+.enviar {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    width: 25%;
+    float: right;
+}
+
+.enviar:hover {
+    color: rgb(49, 48, 48);
+    background-color: lightgray;
+}

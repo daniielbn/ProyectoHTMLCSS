@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.main-container {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.main-container h1 {
+    height: 100px;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(49, 48, 48); 
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.articulo {
+    width: 100%;
+    height: 600px;
+    display: flow-root;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.imagen {
+    float: left;
+    height: 90%;
+    width: 30%;
+    background-image: url(../img/Tienda/Tienda-1.webp);
+    background-position: center ;
+    background-size: cover;
+    background-position: 50% 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.parrafo {
+    float: right;
+    height: 100%;
+    width: 60%;
+    display: flow-root;
+}
+
+.parrafo h3 {
+    margin-top: 50px;
+    color: rgb(49, 48, 48); 
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.info-logo {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.info-logo ul li {
+    float: left;
+    list-style: none;
+}
+
+.info-logo ul li  img {
+    max-width: 45px;
+    max-height: 45px;
+    margin-right: 10px;
+}
+
+.nombre {
+    font-size: 1.25rem;
+    height: 40px;
+}
+
+.parrafo1 {
+    margin-right: 80px;
+    font-style: italic;
+    font-weight: bolder;
+    color:rgb(49, 48, 48);
+}
+
+.parrafo2 {
+    margin-top: 2%;
+    margin-right: 80px; 
+    color:rgb(83, 83, 83);
+}
+
+.redes-sociales {
+    height: 13%;
+    width: 60%;
+    display: flow-root;
+}
+
+.redes-sociales ul li {
+    list-style: none;
+}
+
+.redes-sociales ul li a img{
+    float: left;
+    max-width: 8%;
+    max-height: 8%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+

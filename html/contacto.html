@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>AE6.1 - HTML y CSS - Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <ul>
+                <li><a href="../index.html"><img src="../img/Logos/Logo.png" alt="LOGO"></a></li>
+                <li class="texto"><a href="../index.html"><h2>ALL<span>SHOES</span></h2></a></li>
+            </ul>
+        </div>
+
+        <nav class="menu-principal">
+            <ul class="menu">
+                <li class="menu-item"><a href="../index.html">INICIO</a></li>
+                <li class="menu-item"><a href="nosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="menu-item"><a href="cursos.html">CURSOS</a></li>
+                <li class="menu-item"><a href="tienda.html">TIENDA</a></li>
+                <li class="menu-item"><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <h1>CONTACTO</h1>
+        <div class="container">
+            <div class="contacto">
+                <div class="texto-contacto">
+                    <h2>¿TIENES ALGUNA DUDA?</h2>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam maiores nesciunt sapiente voluptates molestiae nobis. Laborum suscipit culpa sed nobis pariatur libero? Aut iusto deserunt laboriosam voluptate necessitatibus, cumque sit.
+                    Nesciunt, voluptatibus? Provident illo optio quo labore enim reprehenderit officiis. Impedit dolorem earum ut praesentium, ratione repellendus suscipit sapiente facilis adipisci quibusdam maxime amet perspiciatis facere, id nobis esse voluptates.</p>
+                    <h3>E-mail:</h3>
+                    <p>info@allshoes.es</p>
+                    <h3>Redes sociales:</h3>
+                </div>
+                <div class="redes">
+                    <img class="twitter" src="../img/RedesSociales/twitter-icon.png" alt="Twitter">
+                    <img class="whatsapp" src="../img/RedesSociales/whatsapp-logo.png" alt="Whatsapp">
+                    <img class="instagram" src="../img/RedesSociales/instagram-logo.png" alt="Instagram">
+                    <img class="logo" src="../img/Logos/Logo.png" alt="logo">
+                    <img class="telegram" src="../img/RedesSociales/telegram-icon.png" alt="Telegram">
+                    <img class="facebook" src="../img/RedesSociales/facebook-icon.png" alt="Facebook">
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="/formulario.php" name="formulario" method="post" enctype="multipart/form-data">
+                        <p>
+                            <input type="text" name="Nombre" autocomplete="false" placeholder="Nombre">
+                        </p>
+                        <p>
+                            <input type="email" name="Email" autocomplete="false" placeholder="Correo (Correo@email.com)">
+                        </p>
+                        <p>
+                            <input type="tel" name="Tema" autocomplete="false" placeholder="Teléfono (+34 XXX XXX XXX)">
+                        </p>
+                        <p>
+                            <select class="tema">
+                                <option value="Tema" selected="selected">Tema</option>
+                                <option value="Precios">Duda sobre precios</option>
+                                <option value="Envios">Duda sobre envíos</option>
+                                <option value="Tallas">Duda sobre tallas</option>
+                            </select>
+                        </p>
+                        <p>
+                            <textarea name="Mensaje" id="msg" cols="30" rows="10">Mensaje</textarea>
+                        </p>
+
+                        <p class="condicion">
+                            <input type="checkbox" class="condiciones">
+                            Acepto <a href="">condiciones</a>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar" class="enviar">
+                        </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

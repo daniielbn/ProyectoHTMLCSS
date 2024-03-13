@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 700px;
+    border-top: 2px solid black;
+}
+
+.main-container h1 {
+    height: 13%;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(49, 48, 48); 
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.articulos {
+    display: flow-root;
+    padding: 30px;
+    height: 87%;
+    width: 100%;
+}
+
+.articulo {
+    float: left;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+}
+
+.articulo img {
+    width: 75%;
+    height: 50%;
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.articulo h2 {
+    color: rgb(49, 48, 48); 
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0% 33%;
+}
+
+.articulo h4 {
+    color: rgba(49, 48, 48, 0.7); 
+    font-size: 1.2rem;
+    margin: 0% 41%;
+}
+
+.articulo button {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 10%;
+    width: 50%;
+    margin: 2% 25%;
+}
+
+.footer {
+    display: flow-root;
+    width: 100%;
+    padding-right: 60px;
+}
+
+.footer button {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin: 0px 5px;
+}
+
+button:hover {
+    background-color: lightgray;
+    color:rgb(49, 48, 48)
+}
+
+ 
