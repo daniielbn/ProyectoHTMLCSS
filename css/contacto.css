@@ -1,3 +1,7 @@
+/*
+ 1ºDAM B - Daniel Brito Negrín
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -37,11 +41,12 @@
 }
 
 .contacto h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(49, 48, 48);
 }
 
 .contacto h4 {
+    font-size: 1.5rem;
     color: rgba(49, 48, 48, 0.8);
     font-style: italic;
     margin: 10px 0px;
@@ -50,43 +55,56 @@
 .contacto h3 {
     color: rgb(49, 48, 48); 
     margin-top: 15px;
+    font-size: 1.2rem;
 }
 
 .redes {
+    margin-top: 20px;
+    position: relative;
     width: 100%;
     height: 40%;
-    margin-top: 20px;
 }
 
-.redes img {
-    height: 60px;
-    width: 60px;
-    position: relative;
-}
-
-.redes .logo {
-    height: 200px;
-    width: 200px;
-    left: 35%
+.logo-redes {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 35%;
 }
 
 .twitter {
-    left: 20%;
-    top: -28%
+    position: absolute;
+    width: 5%;
+    left: 43%;
+    top: -25%;
+}
+
+.whatsapp {
+    position: absolute;
+    width: 5%;
+    left: 32%;
+    top: 3%;
 }
 
 .instagram {
-    left: 18%;
+    position: absolute;
+    width: 5%;
+    left: 54%;
+    top: 3%;
 }
 
 .telegram {
-    left: -23%;
-    top: 60%
+    position: absolute;
+    width: 5%;
+    left: 27%;
+    top: 40%;
 }
 
 .facebook {
-    left: 10%;
-    top: 60%
+    position: absolute;
+    width: 5%;
+    left: 59%;
+    top: 40%;
 }
 
 .formulario {
@@ -112,6 +130,7 @@ select {
     padding-left: 5px;
     color:rgba(49, 48, 48, 0.7);
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 textarea {
@@ -121,6 +140,7 @@ textarea {
     padding-left: 5px;
     color:rgba(49, 48, 48, 0.7);
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .condiciones {
@@ -132,6 +152,7 @@ textarea {
     padding-left: 5px;
     color:rgba(49, 48, 48, 0.7);
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .condiciones a {
@@ -140,6 +161,7 @@ textarea {
 
 .condicion {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .enviar {

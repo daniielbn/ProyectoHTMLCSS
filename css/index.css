@@ -1,3 +1,7 @@
+/*
+ 1ºDAM B - Daniel Brito Negrín
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@
     margin: 20px 42px;
     height: 500px;
     width: 95%;
-    background-image: url('/AE6.1/img/Carroussel/Carroussel-1.webp');
+    background-image: url('/img/Carroussel/Carroussel-1.webp');
     background-position: center ;
     background-size: cover;
     background-position: 50% 100%;
